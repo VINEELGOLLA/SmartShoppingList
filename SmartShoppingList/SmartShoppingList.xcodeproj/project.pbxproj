@@ -22,8 +22,10 @@
 		EF29674B24B68C37000FB4A2 /* ListItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674A24B68C37000FB4A2 /* ListItemEditViewController.swift */; };
 		EF29674D24B6CFE9000FB4A2 /* ListEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674C24B6CFE9000FB4A2 /* ListEditViewController.swift */; };
 		EF29674F24B6EC2E000FB4A2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674E24B6EC2E000FB4A2 /* MapViewController.swift */; };
-		EFC7BA3B24C03618003BD158 /* Shoplist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7BA3924C03618003BD158 /* Shoplist+CoreDataClass.swift */; };
-		EFC7BA3C24C03618003BD158 /* Shoplist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7BA3A24C03618003BD158 /* Shoplist+CoreDataProperties.swift */; };
+		EF710D2F24C22522004C4F39 /* Shoplist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF710D2B24C22522004C4F39 /* Shoplist+CoreDataClass.swift */; };
+		EF710D3024C22522004C4F39 /* Shoplist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF710D2C24C22522004C4F39 /* Shoplist+CoreDataProperties.swift */; };
+		EF710D3124C22522004C4F39 /* Itemlist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF710D2D24C22522004C4F39 /* Itemlist+CoreDataClass.swift */; };
+		EF710D3224C22522004C4F39 /* Itemlist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF710D2E24C22522004C4F39 /* Itemlist+CoreDataProperties.swift */; };
 		EFE26CFA24BFB45D00223F9D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26CF924BFB45D00223F9D /* MainViewModel.swift */; };
 		EFE26CFC24BFB65F00223F9D /* MainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26CFB24BFB65F00223F9D /* MainRepository.swift */; };
 		EFE26D0024BFB97800223F9D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26CFF24BFB97800223F9D /* DataManager.swift */; };
@@ -68,8 +70,10 @@
 		EF29674A24B68C37000FB4A2 /* ListItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemEditViewController.swift; sourceTree = "<group>"; };
 		EF29674C24B6CFE9000FB4A2 /* ListEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditViewController.swift; sourceTree = "<group>"; };
 		EF29674E24B6EC2E000FB4A2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		EFC7BA3924C03618003BD158 /* Shoplist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoplist+CoreDataClass.swift"; sourceTree = "<group>"; };
-		EFC7BA3A24C03618003BD158 /* Shoplist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoplist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EF710D2B24C22522004C4F39 /* Shoplist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoplist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF710D2C24C22522004C4F39 /* Shoplist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoplist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EF710D2D24C22522004C4F39 /* Itemlist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Itemlist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF710D2E24C22522004C4F39 /* Itemlist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Itemlist+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EFE26CF924BFB45D00223F9D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		EFE26CFB24BFB65F00223F9D /* MainRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRepository.swift; sourceTree = "<group>"; };
 		EFE26CFF24BFB97800223F9D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -159,8 +163,10 @@
 		EFE26CF624BE5A0000223F9D /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				EFC7BA3924C03618003BD158 /* Shoplist+CoreDataClass.swift */,
-				EFC7BA3A24C03618003BD158 /* Shoplist+CoreDataProperties.swift */,
+				EF710D2B24C22522004C4F39 /* Shoplist+CoreDataClass.swift */,
+				EF710D2C24C22522004C4F39 /* Shoplist+CoreDataProperties.swift */,
+				EF710D2D24C22522004C4F39 /* Itemlist+CoreDataClass.swift */,
+				EF710D2E24C22522004C4F39 /* Itemlist+CoreDataProperties.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -343,11 +349,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF29669424B129D7000FB4A2 /* ViewController.swift in Sources */,
-				EFC7BA3B24C03618003BD158 /* Shoplist+CoreDataClass.swift in Sources */,
+				EF710D2F24C22522004C4F39 /* Shoplist+CoreDataClass.swift in Sources */,
+				EF710D3224C22522004C4F39 /* Itemlist+CoreDataProperties.swift in Sources */,
 				EF2966C324B3DF4E000FB4A2 /* HomeTableViewCell.swift in Sources */,
 				EF29674B24B68C37000FB4A2 /* ListItemEditViewController.swift in Sources */,
+				EF710D3024C22522004C4F39 /* Shoplist+CoreDataProperties.swift in Sources */,
+				EF710D3124C22522004C4F39 /* Itemlist+CoreDataClass.swift in Sources */,
 				EFE26CFC24BFB65F00223F9D /* MainRepository.swift in Sources */,
-				EFC7BA3C24C03618003BD158 /* Shoplist+CoreDataProperties.swift in Sources */,
 				EF29674524B4070E000FB4A2 /* CircularProgress.swift in Sources */,
 				EFE26CFA24BFB45D00223F9D /* MainViewModel.swift in Sources */,
 				EF29674924B42739000FB4A2 /* ListItemsViewCell.swift in Sources */,

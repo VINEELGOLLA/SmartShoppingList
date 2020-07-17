@@ -35,7 +35,6 @@ class MainViewModel {
             case .failure:
                 print("error")
             }
-            
         }
         
 //        lists = DataManager.shared.getallrecords()
@@ -46,4 +45,3 @@ class MainViewModel {
         DataManager.shared.removerecord(id: id)
     }
 }
-

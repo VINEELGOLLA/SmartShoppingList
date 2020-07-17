@@ -15,7 +15,6 @@ case success
 case failure
 }
 
-
 class DataManager {
     
     static let shared = DataManager(moc: NSManagedObjectContext.current)
@@ -25,10 +24,6 @@ class DataManager {
     private init(moc: NSManagedObjectContext){
         self.managedcontext = moc
     }
-    
-//    private let appDelegate = UIApplication.shared.delegate as! AppDelegate
-//    private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-//
     
     // get records
     func getallrecords() -> [Shoplist] {
@@ -59,8 +54,6 @@ class DataManager {
         person.setValue(name, forKeyPath: "name")
         person.setValue(id, forKey: "id")
         
-//        let addlist = Shoplist(context: self.managedcontext) 
-//        addlist.name = name
         print("saved2")
 
         do{

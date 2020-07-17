@@ -1,5 +1,5 @@
 //
-//  Shoplist+CoreDataClass.swift
+//  Itemlist+CoreDataClass.swift
 //  SmartShoppingList
 //
 //  Created by naga vineel golla on 7/17/20.
@@ -11,6 +11,6 @@ import Foundation
 import CoreData
 
 
-public class Shoplist: NSManagedObject {
+public class Itemlist: NSManagedObject {
 
 }

@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Itemlist" representedClassName=".Itemlist" syncable="YES">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="itemid" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="itemname" attributeType="String"/>
+        <attribute name="itemnotes" optional="YES" attributeType="String"/>
+        <attribute name="itemvalue" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mark" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="order" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="shoplist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shoplist" inverseName="itemlistrelation" inverseEntity="Shoplist"/>
+    </entity>
     <entity name="Shoplist" representedClassName=".Shoplist" syncable="YES">
         <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="locationname" optional="YES" attributeType="String"/>
+        <attribute name="locationset" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" attributeType="String"/>
+        <attribute name="totalitems" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalmarked" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="itemlistrelation" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Itemlist" inverseName="shoplist" inverseEntity="Itemlist"/>
     </entity>
     <elements>
-        <element name="Shoplist" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Shoplist" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="Itemlist" positionX="-63" positionY="9" width="128" height="163"/>
     </elements>
 </model>
