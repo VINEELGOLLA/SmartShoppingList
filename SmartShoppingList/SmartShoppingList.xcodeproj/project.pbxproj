@@ -10,12 +10,23 @@
 		EF29669024B129D7000FB4A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29668F24B129D7000FB4A2 /* AppDelegate.swift */; };
 		EF29669224B129D7000FB4A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29669124B129D7000FB4A2 /* SceneDelegate.swift */; };
 		EF29669424B129D7000FB4A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29669324B129D7000FB4A2 /* ViewController.swift */; };
-		EF29669724B129D7000FB4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF29669524B129D7000FB4A2 /* Main.storyboard */; };
 		EF29669A24B129D7000FB4A2 /* SmartShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF29669824B129D7000FB4A2 /* SmartShoppingList.xcdatamodeld */; };
 		EF29669C24B129D9000FB4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF29669B24B129D9000FB4A2 /* Assets.xcassets */; };
 		EF29669F24B129D9000FB4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF29669D24B129D9000FB4A2 /* LaunchScreen.storyboard */; };
 		EF2966AA24B129D9000FB4A2 /* SmartShoppingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2966A924B129D9000FB4A2 /* SmartShoppingListTests.swift */; };
 		EF2966B524B129D9000FB4A2 /* SmartShoppingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2966B424B129D9000FB4A2 /* SmartShoppingListUITests.swift */; };
+		EF2966C324B3DF4E000FB4A2 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2966C224B3DF4E000FB4A2 /* HomeTableViewCell.swift */; };
+		EF29674524B4070E000FB4A2 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674424B4070E000FB4A2 /* CircularProgress.swift */; };
+		EF29674724B41C32000FB4A2 /* ListItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674624B41C32000FB4A2 /* ListItemsViewController.swift */; };
+		EF29674924B42739000FB4A2 /* ListItemsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674824B42739000FB4A2 /* ListItemsViewCell.swift */; };
+		EF29674B24B68C37000FB4A2 /* ListItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674A24B68C37000FB4A2 /* ListItemEditViewController.swift */; };
+		EF29674D24B6CFE9000FB4A2 /* ListEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674C24B6CFE9000FB4A2 /* ListEditViewController.swift */; };
+		EF29674F24B6EC2E000FB4A2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29674E24B6EC2E000FB4A2 /* MapViewController.swift */; };
+		EFC7BA3B24C03618003BD158 /* Shoplist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7BA3924C03618003BD158 /* Shoplist+CoreDataClass.swift */; };
+		EFC7BA3C24C03618003BD158 /* Shoplist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7BA3A24C03618003BD158 /* Shoplist+CoreDataProperties.swift */; };
+		EFE26CFA24BFB45D00223F9D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26CF924BFB45D00223F9D /* MainViewModel.swift */; };
+		EFE26CFC24BFB65F00223F9D /* MainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26CFB24BFB65F00223F9D /* MainRepository.swift */; };
+		EFE26D0024BFB97800223F9D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE26CFF24BFB97800223F9D /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +51,6 @@
 		EF29668F24B129D7000FB4A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF29669124B129D7000FB4A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF29669324B129D7000FB4A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF29669624B129D7000FB4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF29669924B129D7000FB4A2 /* SmartShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartShoppingList.xcdatamodel; sourceTree = "<group>"; };
 		EF29669B24B129D9000FB4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF29669E24B129D9000FB4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		EF2966B024B129D9000FB4A2 /* SmartShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2966B424B129D9000FB4A2 /* SmartShoppingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartShoppingListUITests.swift; sourceTree = "<group>"; };
 		EF2966B624B129D9000FB4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2966C224B3DF4E000FB4A2 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		EF29674424B4070E000FB4A2 /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		EF29674624B41C32000FB4A2 /* ListItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemsViewController.swift; sourceTree = "<group>"; };
+		EF29674824B42739000FB4A2 /* ListItemsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemsViewCell.swift; sourceTree = "<group>"; };
+		EF29674A24B68C37000FB4A2 /* ListItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemEditViewController.swift; sourceTree = "<group>"; };
+		EF29674C24B6CFE9000FB4A2 /* ListEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditViewController.swift; sourceTree = "<group>"; };
+		EF29674E24B6EC2E000FB4A2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EFC7BA3924C03618003BD158 /* Shoplist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoplist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFC7BA3A24C03618003BD158 /* Shoplist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shoplist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFE26CF924BFB45D00223F9D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		EFE26CFB24BFB65F00223F9D /* MainRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRepository.swift; sourceTree = "<group>"; };
+		EFE26CFF24BFB97800223F9D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +123,17 @@
 		EF29668E24B129D7000FB4A2 /* SmartShoppingList */ = {
 			isa = PBXGroup;
 			children = (
-				EF29668F24B129D7000FB4A2 /* AppDelegate.swift */,
-				EF29669124B129D7000FB4A2 /* SceneDelegate.swift */,
-				EF29669324B129D7000FB4A2 /* ViewController.swift */,
-				EF29669524B129D7000FB4A2 /* Main.storyboard */,
-				EF29669B24B129D9000FB4A2 /* Assets.xcassets */,
-				EF29669D24B129D9000FB4A2 /* LaunchScreen.storyboard */,
+				EFE26D0124BFB97C00223F9D /* Services */,
+				EFE26CFE24BFB84400223F9D /* coreDataDB */,
+				EFE26CFD24BFB83E00223F9D /* App */,
+				EFE26CF824BFB2F800223F9D /* viewmodel */,
+				EFE26CF724BFB20C00223F9D /* viewcontroller */,
+				EFE26CF624BE5A0000223F9D /* Data */,
+				EFE26CFB24BFB65F00223F9D /* MainRepository.swift */,
 				EF2966A024B129D9000FB4A2 /* Info.plist */,
-				EF29669824B129D7000FB4A2 /* SmartShoppingList.xcdatamodeld */,
+				EF2966C224B3DF4E000FB4A2 /* HomeTableViewCell.swift */,
+				EF29674424B4070E000FB4A2 /* CircularProgress.swift */,
+				EF29674824B42739000FB4A2 /* ListItemsViewCell.swift */,
 			);
 			path = SmartShoppingList;
 			sourceTree = "<group>";
@@ -129,6 +154,62 @@
 				EF2966B624B129D9000FB4A2 /* Info.plist */,
 			);
 			path = SmartShoppingListUITests;
+			sourceTree = "<group>";
+		};
+		EFE26CF624BE5A0000223F9D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7BA3924C03618003BD158 /* Shoplist+CoreDataClass.swift */,
+				EFC7BA3A24C03618003BD158 /* Shoplist+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EFE26CF724BFB20C00223F9D /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				EF29669324B129D7000FB4A2 /* ViewController.swift */,
+				EF29674624B41C32000FB4A2 /* ListItemsViewController.swift */,
+				EF29674A24B68C37000FB4A2 /* ListItemEditViewController.swift */,
+				EF29674C24B6CFE9000FB4A2 /* ListEditViewController.swift */,
+				EF29674E24B6EC2E000FB4A2 /* MapViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		EFE26CF824BFB2F800223F9D /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				EFE26CF924BFB45D00223F9D /* MainViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		EFE26CFD24BFB83E00223F9D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF29668F24B129D7000FB4A2 /* AppDelegate.swift */,
+				EF29669124B129D7000FB4A2 /* SceneDelegate.swift */,
+				EF29669D24B129D9000FB4A2 /* LaunchScreen.storyboard */,
+				EF29669B24B129D9000FB4A2 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFE26CFE24BFB84400223F9D /* coreDataDB */ = {
+			isa = PBXGroup;
+			children = (
+				EF29669824B129D7000FB4A2 /* SmartShoppingList.xcdatamodeld */,
+			);
+			path = coreDataDB;
+			sourceTree = "<group>";
+		};
+		EFE26D0124BFB97C00223F9D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EFE26CFF24BFB97800223F9D /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +318,6 @@
 			files = (
 				EF29669F24B129D9000FB4A2 /* LaunchScreen.storyboard in Resources */,
 				EF29669C24B129D9000FB4A2 /* Assets.xcassets in Resources */,
-				EF29669724B129D7000FB4A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +343,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF29669424B129D7000FB4A2 /* ViewController.swift in Sources */,
+				EFC7BA3B24C03618003BD158 /* Shoplist+CoreDataClass.swift in Sources */,
+				EF2966C324B3DF4E000FB4A2 /* HomeTableViewCell.swift in Sources */,
+				EF29674B24B68C37000FB4A2 /* ListItemEditViewController.swift in Sources */,
+				EFE26CFC24BFB65F00223F9D /* MainRepository.swift in Sources */,
+				EFC7BA3C24C03618003BD158 /* Shoplist+CoreDataProperties.swift in Sources */,
+				EF29674524B4070E000FB4A2 /* CircularProgress.swift in Sources */,
+				EFE26CFA24BFB45D00223F9D /* MainViewModel.swift in Sources */,
+				EF29674924B42739000FB4A2 /* ListItemsViewCell.swift in Sources */,
+				EFE26D0024BFB97800223F9D /* DataManager.swift in Sources */,
 				EF29669A24B129D7000FB4A2 /* SmartShoppingList.xcdatamodeld in Sources */,
 				EF29669024B129D7000FB4A2 /* AppDelegate.swift in Sources */,
+				EF29674F24B6EC2E000FB4A2 /* MapViewController.swift in Sources */,
+				EF29674D24B6CFE9000FB4A2 /* ListEditViewController.swift in Sources */,
+				EF29674724B41C32000FB4A2 /* ListItemsViewController.swift in Sources */,
 				EF29669224B129D7000FB4A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF29669524B129D7000FB4A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF29669624B129D7000FB4A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF29669D24B129D9000FB4A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
